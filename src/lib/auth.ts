@@ -110,8 +110,16 @@ export class AuthService {
   static async updateProfile(updates: Partial<User>): Promise<User> {
     const currentUser = this.getCurrentUser()
     if (!currentUser) throw new Error('No user logged in')
+    const mergedPreferences = updates.preferences
+      ? { ...currentUser.preferences, ...updates.preferences }
+      : currentUser.preferences
 
-    const updatedUser = { ...currentUser, ...updates }
+    const updatedUser = {
+      ...currentUser,
+      ...updates,
+      preferences: mergedPreferences
+    }
+
     localStorage.setItem(this.STORAGE_KEY, JSON.stringify(updatedUser))
     return updatedUser
   }
