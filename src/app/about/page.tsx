@@ -42,21 +42,6 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-4 text-lg text-gray-600">
             <p>
-              Forfatterskolen er et skrivefellesskap for alle som ønsker å
-              utvikle pennen sin. Siden oppstarten har vi tilbudt kurs,
-              veiledning og inspirasjon til tusenvis av nye og erfarne
-              forfatterspirer.
-            </p>
-            <p>
-              Vi brenner for å skape et varmt og inkluderende miljø hvor
-              historier kan vokse frem. Med støtte fra erfarne veiledere og
-              engasjerte medforfattere får du mot til å dele din stemme.
-            </p>
-            <p>
-              Livets Stemme springer ut av dette engasjementet. Prosjektet ledes
-              av <span className="font-semibold">Sven Inge Henningsen</span>,
-              som arbeider i <span className="font-semibold">Forfatterskolen</span>
-              og <span className="font-semibold">Easywrite</span>.
             </p>
           </CardContent>
         </Card>
