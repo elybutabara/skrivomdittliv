@@ -25,7 +25,6 @@ export default function AboutPage() {
           </div>
         </div>
       </header>
-
       <main className="max-w-4xl mx-auto px-6 py-12">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">Om Oss</h2>
@@ -42,6 +41,7 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-4 text-lg text-gray-600">
             <p>
+
             </p>
           </CardContent>
         </Card>
