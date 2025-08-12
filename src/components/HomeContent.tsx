@@ -132,8 +132,8 @@ export default function HomeContent() {
         {/* Welcome Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight">
-            Dine Historier Betyr Noe.<br />
-            <span className="text-amber-600">La Oss Bevare Dem Sammen.</span>
+            Dine historier betyr noe.<br />
+            <span className="text-amber-600">La oss bevare dem sammen.</span>
           </h2>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
             Velkommen til et spesielt sted hvor dine livserfaringer blir til dyrebare minner for familien din.
