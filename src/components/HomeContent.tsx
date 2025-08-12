@@ -42,6 +42,7 @@ export default function HomeContent() {
                 <Link href="/stories" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Mine Historier</Link>
                 <Link href="/help" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Hjelp</Link>
                 <Link href="/listen" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Lytt & Del</Link>
+                <Link href="/premium" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Premium</Link>
               </nav>
               <div className="flex items-center space-x-4">
                 <div className="flex items-center space-x-2">
@@ -114,6 +115,7 @@ export default function HomeContent() {
               <nav className="hidden md:flex space-x-8">
                 <Link href="/help" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Hjelp</Link>
                 <Link href="/about" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Om Oss</Link>
+                <Link href="/premium" className="text-lg text-gray-700 hover:text-amber-600 font-medium">Premium</Link>
               </nav>
               <Button
                 onClick={() => setShowLogin(true)}
