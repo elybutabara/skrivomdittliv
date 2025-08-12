@@ -42,21 +42,6 @@ export default function AboutPage() {
           </CardHeader>
           <CardContent className="space-y-4 text-lg text-gray-600">
             <p>
-              Livets Stemme er utviklet for å gi et varmt og trygt rom for
-              fortellinger. Prosjektet ledes av{" "}
-              <span className="font-semibold">Sven Inge Henningsen</span>, som
-              arbeider i <span className="font-semibold">Forfatterskolen</span>{" "}
-              og <span className="font-semibold">Easywrite</span>.
-            </p>
-            <p>
-              Gjennom arbeidet med skriveglade mennesker har vi sett behovet for
-              et enkelt verktøy som hjelper deg å ta vare på minnene dine – med
-              din egen stemme.
-            </p>
-            <p>
-              Vi tror at alle historier fortjener å bli hørt. Ved å kombinere
-              inspirasjon fra skrivefellesskapet og moderne teknologi håper vi
-              at flere får mot til å dele sine minner.
             </p>
           </CardContent>
         </Card>
